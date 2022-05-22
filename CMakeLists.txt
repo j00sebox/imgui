@@ -19,4 +19,5 @@ target_include_directories(
     imgui
     PUBLIC ${IMGUI_DIR}
     PUBLIC ${IMGUI_DIR}/backends
+    PUBLIC ${GLFW_DIR}
 )
