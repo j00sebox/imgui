@@ -5,8 +5,6 @@ add_library(imgui STATIC)
 set_property(TARGET imgui PROPERTY CXX_STANDARD 17)
 
 include(backend/CMakeLists.txt)
-add_executable(${PROJECT_NAME} ${BACKEND})
-
 target_sources(imgui
     PRIVATE
         ${IMGUI_DIR}/imgui_demo.cpp
